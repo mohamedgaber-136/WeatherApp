@@ -1,0 +1,18 @@
+.hourInfo {
+  border: 1px solid grey;
+  border-radius: 10px;
+  /* box-shadow: 0 0 15px 5px rgb(242, 237, 237); */
+  transition:0.5s;
+}
+.hourInfo:hover{
+    background-color:black;
+    color:white;
+    cursor:pointer;
+
+}
+.hourInfo:hover .celcsius {
+    color:gold !important;
+}
+.celcsius{
+    transition: 0.2s;
+}

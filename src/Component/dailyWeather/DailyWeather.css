@@ -1,0 +1,10 @@
+.dailyData{
+    border:1px solid grey;  
+    border-radius:10px;
+    transition:0.5s
+}
+.dailyData:hover{
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
