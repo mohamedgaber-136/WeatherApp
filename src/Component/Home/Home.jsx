@@ -118,7 +118,8 @@ export default function Home() {
             placeholder="WriteYourLocation"
             onChange={findYourSeach}
           />
-          <Row className="align-items-center w-75  mt-2 gap-3">
+          <div className="dayDatatwo">
+          <Row className="align-items-center w-100  mt-2 gap-3">
             <Col>
               <h2 className="text-dark text-end">
                 {locationData.currentLocation}
@@ -130,7 +131,7 @@ export default function Home() {
               </h6>
             </Col>
           </Row>
-          <Row className="align-items-center w-75 mt-2">
+          <Row className="align-items-center w-100 mt-2">
             <Col>
               <h4 className="text-dark text-end"> {locationData.condition}</h4>
             </Col>
@@ -141,7 +142,7 @@ export default function Home() {
               </h2>
             </Col>
           </Row>
-          <Row className="align-items-center w-75 mt-2">
+          <Row className="align-items-center w-100 mt-2">
             <Col>
               <h5 className="text-dark m-0 text-end">{today}</h5>
             </Col>
@@ -153,6 +154,7 @@ export default function Home() {
               </h4>
             </Col>
           </Row>
+          </div>
           <div className="dayDataParent">
             <div className="dayData   d-flex justify-content-start align-items-center gap-3 ">
               {allDataForDay.map((ele, ind) => (
